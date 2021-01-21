@@ -1,0 +1,38 @@
+Menu Items/Top level Identified
+
+MainUrl -  www.skillxia.com
+http://www.skillxia.com/index.html
+http://www.skillxia.com/Products.html
+http://www.skillxia.com/Solution.html
+http://www.skillxia.com/AboutUs.html
+http://www.skillxia.com/ContactUs.html
+
+3 threadgroups initiated to test performance as below..
+
+ThreadGroup - Single 
+
+No of threads - 1
+Rampup period - 1
+Loopcount - 1
+
+ThreadGroup - Multiple 
+
+No of threads - 100
+Rampup period - 1
+Loopcount - 1
+
+ThreadGroup - Loop 
+
+No of threads - 1
+Rampup period - 1
+Loopcount - 100
+
+Observation
+
+when running threadgroup under loop it takes time since 100 loops need to be
+executed for a single thread which is different from simultaneous execution 
+of multiple threads but all tests are scuccesfull..
+
+
+
+
